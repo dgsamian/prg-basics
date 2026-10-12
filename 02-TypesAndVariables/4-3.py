@@ -1,0 +1,10 @@
+a = 3
+b = 5
+suma = a+b
+roznica = a-b
+iloczyn = a*b
+iloraz = a/b
+print(f'{a}+{b}={suma}')
+print(f'{a}-{b}={roznica}')
+print(f'{a}*{b}={iloczyn}')
+print(f'{a}/{b}={iloraz}')
