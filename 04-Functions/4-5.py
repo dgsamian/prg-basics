@@ -1,4 +1,15 @@
-def time_string(hours, minutes, time_format):
-    godzina=''
-    if time_format==24:
-        godzina=''
+def pts_to_grade(points):
+    grade = ''
+    if points >= 18:
+        grade = 'Excellent'
+    elif points >= 14:
+        grade = 'Good'
+    elif points >= 10:
+        grade = 'Satisfactory'
+    elif points < 10:
+        grade = 'Fail'
+    return grade
+
+test_result = 18
+final_grade = pts_to_grade(test_result)
+print(f'You scored {test_result} points on the test. Your final grade is {final_grade}')
